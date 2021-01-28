@@ -5,11 +5,12 @@ import UseTitle from './component/useTitle'
 import UseClick from './component/useClick'
 import UseConfirm from './component/useConfirm'
 import UsePreventLeave from './component/usePreventLeave'
+import UseBeforeLeave from './component/useBeforeLeave'
 
 const App = () => {
   return (
     <div className="App">
-     <UsePreventLeave/>
+     <UseBeforeLeave/>
     </div>
   );
 }
