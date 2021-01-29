@@ -6,11 +6,12 @@ import UseClick from './component/useClick'
 import UseConfirm from './component/useConfirm'
 import UsePreventLeave from './component/usePreventLeave'
 import UseBeforeLeave from './component/useBeforeLeave'
+import UseFadeIn from './component/useFadeIn'
 
 const App = () => {
   return (
     <div className="App">
-     <UseBeforeLeave/>
+     <UseFadeIn/>
     </div>
   );
 }
